@@ -7,7 +7,7 @@ from flask import Flask, request, session, g, redirect, url_for, \
 
 # create little application
 app = Flask(__name__)
-app.config.from_pyfile('../config.py')
+app.config.from_pyfile('config.py')
 
 
 def connect_db():
